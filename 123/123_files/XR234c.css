@@ -1,0 +1,194 @@
+.linkcard {
+    margin: 0 1px;
+    display: inline-block;
+    padding: 0 5px;
+    width: 100%;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    color: #999;
+    font-size: 14px;
+    background: #F4F6F7;
+    overflow: hidden;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.tpl0_span {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    right: 20px;
+    width: 27%;
+    top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: #1d96db
+}
+
+.tpl8_span {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    right: 20px;
+    width: 27%;
+    top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: #1d96db
+}
+
+.jl li .item-card {
+    padding: 8px !important;
+}
+
+.jl li .item-card img {
+    height: 23px;
+    width: 23px;
+}
+
+.holiday—countdown {
+    background: transparent !important;
+    color: #a2a2a2;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    z-index: 999;
+    border: 1px solid #eee;
+}
+
+.holiday—countdown div {
+    width: auto;
+    float: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+.djsmod {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #eee;
+}
+
+.djsmod .djs_t {
+    color: #a2a2a2;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    width: 30%;
+}
+
+.djsmod .djs_t span {
+    color: #ff4300;
+}
+
+.djsmod .holiday—countdown {
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    border: none
+}
+
+@media (max-width: 900px) {
+    .holiday—countdown {
+        display: none !important;
+    }
+
+    .djsmod {
+        justify-content: center;
+    }
+
+    .djsmod .djs_t {
+        width: 100%;
+        text-align: center;
+    }
+
+    .indexbox .indexbox_title {
+        padding: 5px 15px;
+    }
+
+    .hot-item-2links {
+        width: calc(100% / 2 - 4px) !important;
+    }
+
+    .indexbox_title strong.current:after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 2px;
+        background: #ff5a00;
+        width: 25px;
+    }
+
+    .indexbox .indexbox_title strong {
+        line-height: 40px;
+    }
+
+    .website-lists {
+        justify-content: space-between;
+    }
+
+    .website-lists li {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 901px) {
+    .website-lists li {
+        margin-right: 12.5px
+    }
+
+    .website-lists li:nth-child(5n) {
+        margin-right: 0;
+    }
+}
+
+
+.ad_tc {
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin: 0 auto;
+    z-index: 99999;
+    max-width: 600px;
+}
+
+.ad_tc .ad_tcclose {
+    position: absolute;
+    right: -10px;
+    background: #fff;
+    top: -10px;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.newMark {
+    font-style: inherit;
+    background: red;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0px 1px;
+    position: absolute;
+    line-height: 15px;
+    right: -5px;
+    top: -5px;
+}
